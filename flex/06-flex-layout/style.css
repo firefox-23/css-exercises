@@ -6,19 +6,22 @@ body { /*original*/
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   /* flex-wrap: wrap; */
 }
 
 .header, 
 .footer {
   height: 32px;
-  width: auto;
+  width: 100%;
   align-items: center;
   display: flex;
 }
 
 .content {
   align-self: center;
+  text-align: center;
 }
 .footer {
   background-color: #eeeeee;
@@ -45,7 +48,8 @@ button { /*original*/
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: #eee; 
+  margin-top: 10px;
 }
 
 input { /*original*/
